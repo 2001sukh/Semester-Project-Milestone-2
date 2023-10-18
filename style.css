@@ -131,5 +131,14 @@ footer {
 
 
 
+/* Style the menu page */
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
 
 
