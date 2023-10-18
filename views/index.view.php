@@ -2,10 +2,11 @@
 <?php require('partials/nav.php') ?>
 
 <body>
-<div class="restaurants">
-    
- 
-    
+    <div class="restaurants">
+
+    </div>
+
+
 </body>
 
 <?php require('partials/footer.php') ?>
