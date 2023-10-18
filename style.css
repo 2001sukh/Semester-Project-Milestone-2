@@ -109,3 +109,7 @@ footer {
     width: 300px;
     text-align: center;
 }
+
+.restaurant img {
+    max-width: 100%;
+}
