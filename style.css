@@ -77,3 +77,9 @@ footer {
 }
 
 /* Responsive*/
+
+@media (max-width: 768px) {
+    .menu {
+        display: none; /* Hide the menu on small screens */
+    }
+}
