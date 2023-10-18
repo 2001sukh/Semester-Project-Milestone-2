@@ -152,6 +152,9 @@ footer {
     transition: transform 0.3s;
 }
 
+.menu-item:hover {
+    transform: scale(1.05);
+}
 
 
 
