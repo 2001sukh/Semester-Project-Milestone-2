@@ -11,8 +11,11 @@
 <body>
     <header>
         <nav>
-            
-         </nav>
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+            </nav>
+
     </header>
 </body>
 
