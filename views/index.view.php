@@ -2,6 +2,11 @@
 <?php require('partials/nav.php') ?>
 
 <body>
+
+<h2>Welcome to Hungerhub</h2>
+<p>
+"Welcome to HungerHub, your number one delivery app for fast food! Satisfy your cravings with a wide selection of delicious dishes, delivered right to your doorstep. Order now and experience the ultimate convenience in fast food delivery."</p>
+
     <div class="restaurants">
 
     <div class="restaurant">
