@@ -25,7 +25,7 @@
 </header>
 </body>
 
-<h1>Now you are on a home page</h1>
+<h1>Now you are on a offers page </h1>
 
 <footer>
         <p>&copy; 2023 Your Website. All rights reserved.</p>
