@@ -2,7 +2,10 @@
 <?php require('partials/nav.php') ?>
 
 <body>
-<h1>Now you are on a home page</h1>
+<div class="restaurants">
+    
+ 
+    
 </body>
 
 <?php require('partials/footer.php') ?>
