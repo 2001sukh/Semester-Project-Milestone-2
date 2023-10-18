@@ -5,8 +5,4 @@
     <h1>Now you are on a About page</h1>
 </body>
 
-<footer>
-    <p>&copy; 2023 Your Website. All rights reserved.</p>
-</footer>
-
-</html>
+<?php require('partials/footer.php') ?>
