@@ -8,23 +8,11 @@
     <title>Semester Project Milestone-2</title>
 </head>
 
-<body>
-    <header>
-        <nav>
-            <div class="logo">
-                <img src="logo.png" alt="Logo">
-            </div>
-            <ul class="menu">
-                <li><a href="/">Home</a></li>
-                <li><a href="about.php">About</a></li>
-                <li><a href="offers.php">Offers</a></li>
-                <li><a href="restaurants.php">Restaurants</a></li>
-            </ul>
-        </nav>
-</header>
-</body>
+<?php require('partials/nav.php') ?>
 
+<body>
 <h1>Now you are on a home page</h1>
+</body>
 
 <footer>
         <p>&copy; 2023 Your Website. All rights reserved.</p>
