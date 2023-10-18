@@ -82,4 +82,8 @@ footer {
     .menu {
         display: none; /* Hide the menu on small screens */
     }
+
+    .menu-icon {
+        display: block; /* Show the menu icon on small screens */
+    }
 }
