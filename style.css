@@ -55,6 +55,8 @@ nav {
     color: white;
     font-weight: bold;
     transition: color 0.3s;
+    padding: 10px 15px; /* Add some padding for a larger clickable area */
+    border-radius: 5px; /* Add rounded corners */
    
 }
 
