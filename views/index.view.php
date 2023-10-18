@@ -27,6 +27,23 @@
             <a href="offers.php" class="menu-button">View Menu</a>
         </div>
 
+    
+        
+        <div class="restaurant">
+            <img src="images/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158.avif" alt="Restaurant 4">
+            <h2>Restaurant 4</h2>
+            <p>Description of Restaurant 4.</p>
+            <a href="offers.php" class="menu-button">View Menu</a>
+        </div>
+        
+        <div class="restaurant">
+            <img src="images/restaurant-interior.jpg" alt="Restaurant 5">
+            <h2>Restaurant 5</h2>
+            <p>Description of Restaurant 5.</p>
+            <a href="offers.php" class="menu-button">View Menu</a>
+        </div>
+
+
     </div>
 
 
