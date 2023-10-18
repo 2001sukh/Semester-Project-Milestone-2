@@ -21,10 +21,10 @@
                 <li><a href="#">Restaurants</a></li>
                 <li><a href="#">Profile</a></li>
             </ul>
-
         </nav>
-
-    </header>
+</header>
 </body>
+
+<h1>Now you are on a home page</h1>
 
 </html>
