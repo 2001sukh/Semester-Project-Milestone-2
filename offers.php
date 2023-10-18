@@ -1,3 +1,3 @@
 <?php
 
-require "offers.view.php";
+require "views/offers.view.php";
