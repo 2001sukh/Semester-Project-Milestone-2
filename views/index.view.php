@@ -11,6 +11,14 @@
             <a href="offers.php" class="menu-button">View Menu</a>
         </div>
 
+
+        <div class="restaurant">
+            <img src="images/side-view-potatoes-with-meat-tomato-sauce-with-arugula-greek-salad-soup-table.jpg" alt="Restaurant 2">
+            <h2>Restaurant 2</h2>
+            <p>Description of Restaurant 2.</p>
+            <a href="offers.php" class="menu-button">View Menu</a>
+        </div>
+
     </div>
 
 
