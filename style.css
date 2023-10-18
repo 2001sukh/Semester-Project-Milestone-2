@@ -175,6 +175,8 @@ footer {
     font-size: 18px;
 }
 
-/* Add any additional styling as needed to make it look fancy */
+.aboutimage img {
+    width: 800px;
+}
 
 

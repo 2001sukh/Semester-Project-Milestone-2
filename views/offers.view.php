@@ -22,42 +22,42 @@
 
     <div class="menu-item">
         <img src="#" alt="Food Item 3">
-        <h3>Food Item 1</h3>
+        <h3>Food Item 3</h3>
         <p>Description of Food Item 1.</p>
         <p><strong>Price: $10.99</strong></p>
     </div>
 
     <div class="menu-item">
         <img src="#" alt="Food Item 4">
-        <h3>Food Item 1</h3>
+        <h3>Food Item 4</h3>
         <p>Description of Food Item 1.</p>
         <p><strong>Price: $10.99</strong></p>
     </div>
 
     <div class="menu-item">
         <img src="#" alt="Food Item 5">
-        <h3>Food Item 1</h3>
+        <h3>Food Item 5</h3>
         <p>Description of Food Item 1.</p>
         <p><strong>Price: $10.99</strong></p>
     </div>
 
     <div class="menu-item">
         <img src="#" alt="Food Item 6">
-        <h3>Food Item 1</h3>
+        <h3>Food Item 6</h3>
         <p>Description of Food Item 1.</p>
         <p><strong>Price: $10.99</strong></p>
     </div>
 
     <div class="menu-item">
         <img src="#" alt="Food Item 7">
-        <h3>Food Item 1</h3>
+        <h3>Food Item 7</h3>
         <p>Description of Food Item 1.</p>
         <p><strong>Price: $10.99</strong></p>
     </div>
 
     <div class="menu-item">
         <img src="#" alt="Food Item 8">
-        <h3>Food Item 1</h3>
+        <h3>Food Item 8</h3>
         <p>Description of Food Item 1.</p>
         <p><strong>Price: $10.99</strong></p>
     </div>
