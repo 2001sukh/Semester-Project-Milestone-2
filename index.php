@@ -14,7 +14,15 @@
             <div class="logo">
                 <img src="logo.png" alt="Logo">
             </div>
-            </nav>
+            <ul class="menu">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Restaurants</a></li>
+                <li><a href="#">Profile</a></li>
+            </ul>
+
+        </nav>
 
     </header>
 </body>
