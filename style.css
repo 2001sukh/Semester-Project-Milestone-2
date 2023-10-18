@@ -60,6 +60,11 @@ nav {
     font-size: 18px;
 }
 
+.menu a:hover {
+    background-color: #e74c3c; /* Change the background color on hover */
+    color: white;
+}
+
 /* Style the footer */
 
 
