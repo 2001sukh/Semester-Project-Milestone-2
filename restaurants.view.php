@@ -18,14 +18,14 @@
                 <li><a href="/">Home</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="offers.php">Offers</a></li>
-                <li><a href="#">Restaurants</a></li>
+                <li><a href="restaurants.php">Restaurants</a></li>
                 <li><a href="#">Profile</a></li>
             </ul>
         </nav>
 </header>
 </body>
 
-<h1>Now you are on a home page</h1>
+<h1>Now you are on a Restaurants page</h1>
 
 <footer>
         <p>&copy; 2023 Your Website. All rights reserved.</p>

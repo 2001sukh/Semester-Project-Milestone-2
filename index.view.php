@@ -18,7 +18,7 @@
                 <li><a href="/">Home</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="offers.php">Offers</a></li>
-                <li><a href="#">Restaurants</a></li>
+                <li><a href="restaurants.php">Restaurants</a></li>
                 <li><a href="#">Profile</a></li>
             </ul>
         </nav>
