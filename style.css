@@ -136,7 +136,8 @@ footer {
 .menu-items {
     display: flex;
     justify-content: space-around;
-
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
 
