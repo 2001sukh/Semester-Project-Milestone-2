@@ -32,7 +32,9 @@ nav {
 .menu-icon {
     display: none;
     font-size: 24px;
-   
+    cursor: pointer;
+    color: white;
+    margin-right: 20px;
 }
 
 
