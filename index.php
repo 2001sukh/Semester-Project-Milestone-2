@@ -15,8 +15,8 @@
                 <img src="logo.png" alt="Logo">
             </div>
             <ul class="menu">
+                <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
                 <li><a href="#">Offers</a></li>
                 <li><a href="#">Restaurants</a></li>
                 <li><a href="#">Profile</a></li>
@@ -30,5 +30,5 @@
 <footer>
         <p>&copy; 2023 Your Website. All rights reserved.</p>
     </footer>
-    
+
 </html>
