@@ -72,7 +72,8 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
- 
+    border-top: 1.5px solid  #e65342;
+    border-bottom:1.5px solid  #e74c3c;
 }
 
 /* Responsive*/
