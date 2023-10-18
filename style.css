@@ -113,3 +113,8 @@ footer {
 .restaurant img {
     max-width: 100%;
 }
+
+.menu-button {
+    display: inline-block;
+   
+}
