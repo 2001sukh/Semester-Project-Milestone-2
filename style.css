@@ -156,5 +156,11 @@ footer {
     transform: scale(1.05);
 }
 
+.menu-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
 
 
