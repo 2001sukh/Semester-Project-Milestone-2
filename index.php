@@ -27,4 +27,8 @@
 
 <h1>Now you are on a home page</h1>
 
+<footer>
+        <p>&copy; 2023 Your Website. All rights reserved.</p>
+    </footer>
+    
 </html>
