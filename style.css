@@ -100,5 +100,8 @@ footer {
     padding: 20px;
 }
 
-
-
+.restaurant {
+    background-color: white;
+    border: 1px solid #ddd;
+  
+}
