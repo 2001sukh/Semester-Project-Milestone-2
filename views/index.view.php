@@ -19,6 +19,14 @@
             <a href="offers.php" class="menu-button">View Menu</a>
         </div>
 
+
+        <div class="restaurant">
+            <img src="images/wine-glass.jpg" alt="Restaurant 3">
+            <h2>Restaurant 3</h2>
+            <p>Description of Restaurant 3.</p>
+            <a href="offers.php" class="menu-button">View Menu</a>
+        </div>
+
     </div>
 
 
