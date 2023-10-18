@@ -95,6 +95,7 @@ footer {
 
 .restaurants {
     display: flex;
+    justify-content: space-around;
    
 }
 
