@@ -86,4 +86,9 @@ footer {
     .menu-icon {
         display: block; /* Show the menu icon on small screens */
     }
+
+    .menu-icon:hover {
+        color: #e74c3c;
+    }
+
 }
