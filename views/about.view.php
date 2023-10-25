@@ -24,6 +24,10 @@
             </ul>
         </div>
 
+        <div class="service-variety">
+    </div>
+
+
 
 </body>
 
