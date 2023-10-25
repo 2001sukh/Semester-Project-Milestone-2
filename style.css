@@ -218,4 +218,8 @@ footer {
     transition: background-color 0.3s, color 0.3s;
 }
 
+.cta-button:hover {
+    background-color: #e74c3c; 
+    color: white;
+}
 
