@@ -200,11 +200,17 @@ footer {
 }
 
 
-    /* Restaurant page CTA*/
+/* Add this CSS at the end of your existing stylesheet */
 
-    .cta-section {
-        text-align: center;
-        padding: 40px 0;
-    }
+.cta-section {
+    background-color: #e74c3c; /* Use your preferred color */
+    text-align: center;
+    padding: 40px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+}
 
 
