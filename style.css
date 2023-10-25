@@ -203,8 +203,6 @@ footer {
 /* Add this CSS at the end of your existing stylesheet */
 
 .cta-section {
-    background-color: #e74c3c; /* Use your preferred color */
-    text-align: center;
     padding: 40px 0;
 }
 
@@ -213,6 +211,9 @@ footer {
     padding: 15px 30px;
     background-color: white;
     color: #e74c3c;
+    text-decoration: none;
+    border-radius: 5px;
+ 
 }
 
 
