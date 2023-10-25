@@ -193,4 +193,7 @@ footer {
     background-color: #fff;
     padding: 30px;
     margin: 20px auto;
+    max-width: 800px;
+    border-radius: 20px;
+ 
 }
