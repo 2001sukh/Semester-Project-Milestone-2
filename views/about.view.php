@@ -25,6 +25,15 @@
         </div>
 
         <div class="service-variety">
+            <h2>Service Variety</h2>
+            <p>Hungry Hub offers a wide range of services, ensuring that your cravings and needs are satisfied with just a few clicks:</p>
+            <ul>
+                <li>Restaurant-quality meal delivery</li>
+                <li>Essential groceries for your week</li>
+                <li>Urgent package deliveries</li>
+                <li>And much more!</li>
+            </ul>
+        </div>
     </div>
 
 
