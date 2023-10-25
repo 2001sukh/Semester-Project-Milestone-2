@@ -14,7 +14,14 @@
         </div>
 
         <div class="features">
-          
+            <h2>Key Features</h2>
+            <p>At Hungry Hub, we're committed to simplifying your life. Our platform offers several key features and benefits:</p>
+            <ul>
+                <li>Efficient and reliable delivery services</li>
+                <li>A wide range of delicious dishes, groceries, and essential items</li>
+                <li>Fast and hassle-free deliveries</li>
+                <li>One-stop solution for all your delivery needs</li>
+            </ul>
         </div>
 
 
