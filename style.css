@@ -184,3 +184,7 @@ footer {
     transition: transform 0.3s;
 }
 
+.about-image img:hover {
+    transform: scale(1.05);
+}
+
