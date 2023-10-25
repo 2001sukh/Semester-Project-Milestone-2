@@ -175,5 +175,10 @@ footer {
     font-size: 18px;
 }
 
+/* Style the About page */
 
+.about-image img {
+    max-width: 65%;
+  
+}
 
