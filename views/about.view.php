@@ -8,7 +8,8 @@
     </div>
 
     <div class="about-content">
-    
+        <div class="intro">
+
         </div>
 
 </body>
