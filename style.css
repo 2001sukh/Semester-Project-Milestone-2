@@ -274,7 +274,7 @@ cta-button:hover {
   .order-button:hover {
     background-color: #b0392c;
   }
-
+  
   
 /* styles for the text */
 .text-container {
@@ -286,4 +286,11 @@ cta-button:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     margin: 20px auto;
 }
+
+.text-container h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
 
