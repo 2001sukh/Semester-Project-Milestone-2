@@ -271,5 +271,7 @@ cta-button:hover {
     text-decoration: none;
   }
   
-
+  .order-button:hover {
+    background-color: #b0392c;
+  }
   
