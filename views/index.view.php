@@ -50,6 +50,13 @@
       <button class="order-button">Order Now</button>
     </a>
   </div>
+  <div class="grid-item">
+    <a href="link2.html">
+      <img src="images/grid2.jpg" alt="Grid Item 2">
+      <button class="order-button">Order Now</button>
+    </a>
+  </div>
+
 </div>
 
 
