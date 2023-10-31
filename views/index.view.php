@@ -2,6 +2,8 @@
 <?php require('partials/nav.php') ?>
 
 <body>
+
+
 <div class="carousel">
   <div class="carousel-slide">
     <img src="images\restaurant-interior.jpg" alt="Carousel Slide 1">
@@ -42,7 +44,7 @@
   }
 </script>
 
-
+    
 <div class="grid-container">
   <div class="grid-item">
     <a href="link1.html">
