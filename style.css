@@ -221,3 +221,12 @@ cta-button:hover {
     right: 10px;
   }
 
+
+  
+/* Grid section styles */
+.grid-container {
+    display: grid;
+
+  }
+  
+
