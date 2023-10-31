@@ -195,7 +195,11 @@ cta-button:hover {
     width: 100%;
     height: auto;
   }
-  
- 
+
+  /* Previous and Next buttons */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+  }
   
 
