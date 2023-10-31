@@ -190,6 +190,12 @@ cta-button:hover {
     display: none;
     width: 100%;
   }
-
+  
+  .carousel img {
+    width: 100%;
+    height: auto;
+  }
+  
+ 
   
 
