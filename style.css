@@ -293,4 +293,8 @@ cta-button:hover {
     color: #e74c3c;
 }
 
-
+.text-container p {
+    font-size: 20px;
+    font-style: italic;
+    line-height: 1.5;
+}
