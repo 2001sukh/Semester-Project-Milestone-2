@@ -56,7 +56,30 @@
       <button class="order-button">Order Now</button>
     </a>
   </div>
-
+  <div class="grid-item">
+    <a href="link3.html">
+      <img src="images/grid3.jpg" alt="Grid Item 3">
+      <button class="order-button">Order Now</button>
+    </a>
+  </div>
+  <div class="grid-item">
+    <a href="link4.html">
+      <img src="images/grid4.jpg" alt="Grid Item 4">
+      <button class="order-button">Order Now</button>
+    </a>
+  </div>
+  <div class="grid-item">
+    <a href="link5.html">
+      <img src="images/grid5.jpg" alt="Grid Item 5">
+      <button class="order-button">Order Now</button>
+    </a>
+  </div>
+  <div class="grid-item">
+    <a href="link6.html">
+      <img src="images/grid6.jpg" alt="Grid Item 6">
+      <button class="order-button">Order Now</button>
+    </a>
+  </div>
 </div>
 
 
