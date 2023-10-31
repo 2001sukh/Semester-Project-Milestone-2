@@ -3,6 +3,7 @@
             <div class="logo">
                 <img src="logo.png" alt="Logo">
             </div>
+       
             <ul class="menu">
                 <li><a href="/">Home</a></li>
                 <li><a href="about.php">About</a></li>
