@@ -261,6 +261,8 @@ cta-button:hover {
   .order-button {
     display: block;
     width: 100%;
+    background-color:  #c73f31;
+    color: #fff;
   }
   
 
