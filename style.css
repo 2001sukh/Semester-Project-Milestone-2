@@ -242,6 +242,10 @@ cta-button:hover {
     padding: 20px;
   }
   
+  .grid-item img {
+    max-width: 100%;
+  }
 
+ 
   
 
