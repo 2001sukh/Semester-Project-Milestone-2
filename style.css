@@ -245,7 +245,13 @@ cta-button:hover {
   .grid-item img {
     max-width: 100%;
   }
-
+  
+  .grid-item a {
+    text-decoration: none;
+    color: #333;
+  }
+ 
+  
  
   
 
