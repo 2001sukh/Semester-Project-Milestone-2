@@ -263,6 +263,9 @@ cta-button:hover {
     width: 100%;
     background-color:  #c73f31;
     color: #fff;
+    border: none;
+    border-radius: 5px;
+
   }
   
 
