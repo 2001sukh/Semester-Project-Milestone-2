@@ -25,6 +25,20 @@
   function showSlides() {
     let slides = document.querySelectorAll('.carousel-slide');
 
+    // Hide all slides
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = 'none';
+    }
+
+    // Show the current slide
+    slideIndex++;
+    if (slideIndex > slides.length) {
+      slideIndex = 1;
+    }
+    slides[slideIndex - 1].style.display = 'block';
+
+    // Change slides every 3 seconds (3000 milliseconds)
+    setTimeout(showSlides, 3000);
   }
 </script>
 
