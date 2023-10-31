@@ -13,6 +13,9 @@
     <img src="images\wine-glass.jpg" alt="Carousel Slide 3">
   </div>
 
-
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+</body>
 
 <?php require('partials/footer.php') ?>
