@@ -226,6 +226,9 @@ cta-button:hover {
 /* Grid section styles */
 .grid-container {
     display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(2, 1fr);    /* 2 rows */
+  
 
   }
   
