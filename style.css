@@ -180,6 +180,8 @@ cta-button:hover {
 /* Carousel styles */
 .carousel {
     overflow: hidden;
+    width: 100%;
+    max-width: 1200px;
   }
 
  
