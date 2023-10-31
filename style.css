@@ -185,7 +185,11 @@ cta-button:hover {
     margin: 0 auto;
     position: relative;
   }
+  
+  .carousel-slide {
+    display: none;
+    width: 100%;
+  }
 
- 
   
 
