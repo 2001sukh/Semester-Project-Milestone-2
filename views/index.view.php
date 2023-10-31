@@ -21,6 +21,11 @@
 <script>
   let slideIndex = 0;
   showSlides();
+
+  function showSlides() {
+    let slides = document.querySelectorAll('.carousel-slide');
+
+  }
 </script>
 
 
