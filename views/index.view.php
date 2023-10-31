@@ -43,5 +43,15 @@
 </script>
 
 
+<div class="grid-container">
+  <div class="grid-item">
+    <a href="link1.html">
+      <img src="images/grid1.jpg" alt="Grid Item 1">
+      <button class="order-button">Order Now</button>
+    </a>
+  </div>
+</div>
+
+
 </body>
 <?php require('partials/footer.php') ?>
