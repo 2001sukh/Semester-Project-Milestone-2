@@ -13,7 +13,15 @@
                 <p>$10.99</p>
             </a>
         </div>
-        
+        <div class="dish-item">
+            <a href="#dish2">
+                <img src="images\various-snacks-served-with-beer.jpg" alt="Dish 2">
+                <h3>Dish 2</h3>
+                <p>$12.99</p>
+            </a>
+        </div>
+       
+    </div>
 
 
 </body>
