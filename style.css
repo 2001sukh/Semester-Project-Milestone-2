@@ -275,5 +275,6 @@ cta-button:hover {
 
 .formtext-container h2 {
     font-size: 28px;
-  
+    font-weight: bold;
+    color: #e74c3c; 
 }
