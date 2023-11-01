@@ -278,3 +278,12 @@ cta-button:hover {
     font-weight: bold;
     color: #e74c3c; 
 }
+
+.formtext-container label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333; 
+}
+
+
