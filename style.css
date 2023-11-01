@@ -343,7 +343,7 @@ cta-button:hover {
 
 
   /* Add styles for dishes (menu page )*/
-
+  
   .dish-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
@@ -354,5 +354,9 @@ cta-button:hover {
     padding: 20px;
 }
 
+.dish-item {
+    background-color: white;
+  
+}
 
 
