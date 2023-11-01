@@ -273,4 +273,7 @@ cta-button:hover {
     margin: 20px auto;
 }
 
-
+.formtext-container h2 {
+    font-size: 28px;
+  
+}
