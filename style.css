@@ -265,6 +265,8 @@ cta-button:hover {
 /* Form container styles */
 .formtext-container {
     text-align: left;
+    background-color: #fff; 
+
 }
 
 
