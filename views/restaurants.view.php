@@ -56,7 +56,7 @@
             <label for="attachments">Attachments (optional)</label>
             <input type="file" id="attachments" name="attachments">
 
-      
+            <button class="order-button" type="submit">Submit</button>
         </form>
     </div>
 
