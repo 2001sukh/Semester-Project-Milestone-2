@@ -362,4 +362,8 @@ cta-button:hover {
     padding: 20px;
 }
 
+.dish-item img {
+    max-width: 100%;
+}
+
 
