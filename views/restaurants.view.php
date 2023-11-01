@@ -35,6 +35,13 @@
             <label for="time">Time of Visit (optional)</label>
             <input type="time" id="time" name="time">
 
+            <label for="experience">What kind of dining experience did you have?</label>
+            <select id="experience" name="experience">
+                <option value="">Select</option>
+                <option value="Good">Good</option>
+                <option value="Average">Average</option>
+                <option value="Poor">Poor</option>
+            </select>
         </form>
     </div>
 
