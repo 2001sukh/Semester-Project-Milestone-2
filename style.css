@@ -376,4 +376,9 @@ cta-button:hover {
     color: #e74c3c;
 }
 
+/* Add styles for dish names and costs */
+.grid-item h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
 
