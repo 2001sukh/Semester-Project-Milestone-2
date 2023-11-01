@@ -42,6 +42,15 @@
                 <option value="Average">Average</option>
                 <option value="Poor">Poor</option>
             </select>
+
+            <label for="response">How shall we respond?</label>
+            <select id="response" name="response">
+                <option value="">Select</option>
+                <option value="Email">Email</option>
+                <option value="Phone">Phone</option>
+            </select>
+
+           
         </form>
     </div>
 
