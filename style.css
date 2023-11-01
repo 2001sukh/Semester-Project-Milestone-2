@@ -259,3 +259,12 @@ cta-button:hover {
 .menu li:last-child a:hover {
     background-color: #c73f31; 
 }
+
+
+
+/* Form container styles */
+.formtext-container {
+    text-align: left;
+}
+
+
