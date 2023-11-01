@@ -298,3 +298,11 @@ cta-button:hover {
     border-radius: 5px;
 }
 
+.formtext-container select {
+    background-color: #f4f4f4; 
+}
+
+.formtext-container textarea {
+    resize: vertical;
+}
+
