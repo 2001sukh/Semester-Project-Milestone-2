@@ -267,6 +267,7 @@ cta-button:hover {
     text-align: left;
     background-color: #fff; 
     padding: 20px;
+    max-width: 600px; 
 
 }
 
