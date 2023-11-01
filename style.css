@@ -257,3 +257,6 @@ cta-button:hover {
     font-size: 18px;
 }
 
+.menu li:last-child a:hover {
+    background-color: #c73f31; 
+}
