@@ -50,7 +50,13 @@
                 <option value="Phone">Phone</option>
             </select>
 
-           
+            <label for="comments">Tell us more!</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+
+            <label for="attachments">Attachments (optional)</label>
+            <input type="file" id="attachments" name="attachments">
+
+      
         </form>
     </div>
 
