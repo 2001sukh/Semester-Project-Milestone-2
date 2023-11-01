@@ -382,3 +382,10 @@ cta-button:hover {
     margin: 10px 0;
 }
 
+.grid-item p {
+    font-size: 18px;
+    color: #e74c3c;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
