@@ -75,63 +75,6 @@ footer {
     border-bottom: 1.5px solid #e74c3c;
 }
 
-/* Responsive styles */
-@media (max-width: 768px) {
-    .menu {
-        display: none; /* Hide the menu on small screens */
-    }
-
-    .menu-icon {
-        display: block; /* Show the menu icon on small screens */
-    }
-
-    .menu-icon:hover {
-        color: #e74c3c;
-    }
-}
-
-/* Menu page styles */
-.menu-items {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 20px;
-}
-
-.menu-item {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
-    width: 300px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s;
-}
-
-.menu-item:hover {
-    transform: scale(1.05);
-}
-
-.menu-item img {
-    max-width: 100%;
-    border-radius: 10px;
-}
-
-.menu-item h3 {
-    font-size: 24px;
-    margin-top: 10px;
-}
-
-menu-item p {
-    font-size: 16px;
-}
-
-menu-item strong {
-    color: #e74c3c;
-    font-size: 18px;
-}
 
 /* About page styles */
 .about-image img {
