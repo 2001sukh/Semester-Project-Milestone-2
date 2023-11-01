@@ -356,7 +356,10 @@ cta-button:hover {
 
 .dish-item {
     background-color: white;
-  
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
 }
 
 
