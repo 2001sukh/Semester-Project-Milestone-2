@@ -241,3 +241,8 @@ cta-button:hover {
     font-style: italic;
     line-height: 1.5;
 }
+
+
+.logo img {
+    display: none;
+}
