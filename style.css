@@ -286,4 +286,15 @@ cta-button:hover {
     color: #333; 
 }
 
+.formtext-container input[type="text"],
+.formtext-container input[type="tel"],
+.formtext-container input[type="email"],
+.formtext-container select,
+.formtext-container textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+}
 
