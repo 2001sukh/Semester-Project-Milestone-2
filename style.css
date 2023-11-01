@@ -372,5 +372,8 @@ cta-button:hover {
     display: block;
 }
 
+.dish-item a:hover {
+    color: #e74c3c;
+}
 
 
