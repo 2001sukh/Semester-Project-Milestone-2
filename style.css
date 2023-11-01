@@ -246,3 +246,14 @@ cta-button:hover {
 .logo img {
     display: none;
 }
+
+/* Style the "Feed Me" button */
+.menu li:last-child a {
+    background-color: #e74c3c;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
