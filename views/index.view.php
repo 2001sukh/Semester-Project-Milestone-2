@@ -54,7 +54,7 @@
     
 <div class="grid-container">
   <div class="grid-item">
-    <a href="link1.html">
+    <a href="offers.php">
       <img src="images\bartender-making-alcoholic-cocktail-summer-cocktail-bar.jpg" alt="Grid Item 1">
       <button class="order-button">Order Now</button>
     </a>
