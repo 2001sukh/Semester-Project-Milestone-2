@@ -26,6 +26,15 @@
                 <option value="Location 3">Location 3</option>
             </select>
 
+            <label for="date">Date of Visit (optional)</label>
+            <input type="date" id="date" name="date">
+
+            <label for="check-number">Check Number (optional)</label>
+            <input type="text" id="check-number" name="check-number">
+
+            <label for="time">Time of Visit (optional)</label>
+            <input type="time" id="time" name="time">
+
         </form>
     </div>
 
