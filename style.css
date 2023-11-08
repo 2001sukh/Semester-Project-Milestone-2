@@ -389,3 +389,9 @@ cta-button:hover {
     margin: 10px 0;
 }
 
+/* Header styles of sign in popup buttons */
+
+header .sign-in-up {
+    display: flex;
+    align-items: center;
+}
