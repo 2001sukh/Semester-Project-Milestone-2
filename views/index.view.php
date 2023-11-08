@@ -23,7 +23,13 @@
     <form>
       <h2>
         <span>User Register </span>
+        <button type="reset" onclick="popup('register-popup')">x</button>
 </h2>
+<input type="text" placeholder="Full Name">
+<input type="text" placeholder="Username">
+<input type="email" placeholder="E-mail">
+<input type="password" placeholder="password">
+<button type="submit" class="register-btn">REGISTER</button>
 </form>
 </div>
 </div>
