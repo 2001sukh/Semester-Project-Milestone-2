@@ -427,4 +427,5 @@ div.popup-container {
     align-items: center;
     justify-content: center;
     display: none;
+    background: rgba(0, 0, 0, 0.6);
 }
