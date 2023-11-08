@@ -466,4 +466,5 @@ div.popup-container .popup h2, div.popup-container .register h2 {
 /* Login and Registration Close Button */
 div.popup-container .popup h2 button, div.popup-container .register h2 button {
     font-size: 20px;
+    font-weight: 600;
 }
