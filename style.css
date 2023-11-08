@@ -503,6 +503,11 @@ div.popup-container .popup button.login-btn, div.popup-container .register butto
     box-shadow: 0px 5px 10px rgba(40, 56, 69, 0.2);
 }
 
+/* Hover effect for Submit Buttons */
+div.popup-container .popup button.login-btn:hover, div.popup-container .register button.register-btn:hover {
+    background: linear-gradient(45deg, #283845, #1f2b38);
+}
+
 
 
 
