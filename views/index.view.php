@@ -1,12 +1,13 @@
 <?php require('partials/head.php') ?>
 <?php require('partials/nav.php') ?>
 <?php require('connection.php')?>
-
 <body>
+
+<div class="carousel">
 
 <div class="popup-container" id="login-popup">
   <div class="popup">
-    <form method="POST" action="login_register.php">
+    <form>
       <h2>
         <span>User Login</span>
         <button type="reset" onclick="popup('login-popup')">x</button>
@@ -35,7 +36,6 @@
 </div>
 </div>
 
-
 <script>
 function popup(popup_name)
 {
@@ -51,7 +51,6 @@ function popup(popup_name)
 }
   </script>
 
-<div class="carousel">
   <div class="carousel-slide">
     <img src="images\restaurant-interior.jpg" alt="Carousel Slide 1">
   </div>
