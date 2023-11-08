@@ -22,7 +22,15 @@ if($result)
         </script>
         ";
     }
-     
+     else
+     {
+        echo"
+        <script>
+        alert('$result_fetch[email] - E-mail already registered');
+        window.location.href='index.php';
+        </script>
+        ";
+     }
  }
  
 
