@@ -492,6 +492,8 @@ div.popup-container .popup input, div.popup-container .register input {
 div.popup-container .popup button.login-btn, div.popup-container .register button.register-btn {
     font-weight: 600;
     font-size: 18px;
+    color: #fff;
+    background: linear-gradient(45deg, #30475e, #283845);
 }
 
 
