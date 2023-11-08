@@ -488,4 +488,12 @@ div.popup-container .popup input, div.popup-container .register input {
     color: #30475e;
 }
 
+/* Login and Registration Submit Buttons */
+div.popup-container .popup button.login-btn, div.popup-container .register button.register-btn {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+
 
