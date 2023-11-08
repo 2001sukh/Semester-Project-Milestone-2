@@ -401,5 +401,7 @@ header .sign-in-up button {
     font-weight: 600;
     color: #fff;
     background: linear-gradient(45deg, #ff6b6b, #e74c3c);
-   
+    padding: 10px 20px;
+    border: none;
+  
 }
