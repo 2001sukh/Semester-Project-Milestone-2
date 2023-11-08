@@ -17,10 +17,16 @@
 </div>
 </div>
 
-<div class="popup-container" id="register-popup">
-  
-</div>
 
+<div class="popup-container" id="register-popup">
+  <div class="register popup">
+    <form>
+      <h2>
+        <span>User Register </span>
+</h2>
+</form>
+</div>
+</div>
 
 <div class="carousel">
   <div class="carousel-slide">
