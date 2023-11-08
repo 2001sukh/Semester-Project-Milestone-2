@@ -6,14 +6,14 @@
 
 <div class="popup-container" id="login-popup">
   <div class="popup">
-    <form>
+    <form method="POST" action="login_register.php">
       <h2>
         <span>User Login</span>
         <button type="reset" onclick="popup('login-popup')">x</button>
 </h2>
-<input type="text" placeholder="E-mail or username">
-<input type="password" placeholder="Password">
-<button type="submit" class="login-btn">LOGIN</button>
+<input type="text" placeholder="E-mail or username" name="email_username">
+<input type="password" placeholder="Password" name="password">
+<button type="submit" class="login-btn" name="login">LOGIN</button>
 </form>
 </div>
 </div>
@@ -21,16 +21,16 @@
 
 <div class="popup-container" id="register-popup">
   <div class="register popup">
-    <form>
+  <form method="POST" action="login_register.php">
       <h2>
         <span>User Register </span>
         <button type="reset" onclick="popup('register-popup')">x</button>
 </h2>
-<input type="text" placeholder="Full Name">
-<input type="text" placeholder="Username">
-<input type="email" placeholder="E-mail">
-<input type="password" placeholder="password">
-<button type="submit" class="register-btn">REGISTER</button>
+<input type="text" placeholder="Full Name" name="fullname">
+<input type="text" placeholder="Username" name="username">
+<input type="email" placeholder="E-mail" name="email">
+<input type="password" placeholder="password" name="password">
+<button type="submit" class="register-btn" name="register">REGISTER</button>
 </form>
 </div>
 </div>
