@@ -497,6 +497,8 @@ div.popup-container .popup button.login-btn, div.popup-container .register butto
     padding: 10px 20px;
     border: none;
     outline: none;
+    cursor: pointer;
+    border-radius: 25px;
 }
 
 
