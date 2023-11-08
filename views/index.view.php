@@ -51,6 +51,7 @@ function popup(popup_name)
 }
   </script>
 
+ 
   <div class="carousel-slide">
     <img src="images\restaurant-interior.jpg" alt="Carousel Slide 1">
   </div>
