@@ -8,6 +8,11 @@
     <form>
       <h2>
         <span>User Login</span>
+        <button type="reset" onclick="popup('login-popup')">x</button>
+</h2>
+<input type="text" placeholder="E-mail or username">
+<input type="password" placeholder="Password">
+<button type="submit" class="login-btn">LOGIN</button>
 </form>
 </div>
 </div>
