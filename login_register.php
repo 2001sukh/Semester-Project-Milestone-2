@@ -9,7 +9,7 @@ $result=mysqli_query($con,$user_exist_query);
 }
 
 if($result)
-
+{
  if(mysqli_num_rows($result)>0)
  {
     $result_fetch=mysqli_fetch_assoc($result);
@@ -32,6 +32,18 @@ if($result)
         ";
      }
  }
- 
+ else 
+ {
+   $querry="INSERT INTO `registered_users`(`full_name`, `username`, `email`, `password`) VALUES ('$_POST[fullname]','$post[username]','$_POST[email]')";
+   if(mysqli_query($con,$query))
+   {
+    echo"
+    <script>alert('Registration successful');
+    window.location.href='index.php';
+    </script>
+    ";
+   }
+}
+}
 
 ?>
