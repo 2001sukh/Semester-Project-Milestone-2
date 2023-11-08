@@ -414,9 +414,7 @@ header .sign-in-up button:hover {
     background: linear-gradient(45deg, #e74c3c, #c0392b);
 }
 
-
 /* Popup container styles */
-
 div.popup-container {
     position: fixed;
     top: 0;
@@ -430,3 +428,12 @@ div.popup-container {
     background: rgba(0, 0, 0, 0.6);
     z-index: 1000;
 }
+
+
+/* Styling for the login and registration popups */
+
+/* Login and Registration Container */
+div.popup-container .popup, div.popup-container .register {
+    background: linear-gradient(45deg, #fff, #f0f0f0);
+}
+
