@@ -2,6 +2,12 @@
 <?php require('partials/nav.php') ?>
 
 <body>
+
+<div class="popup-container" id="login-popup">
+
+</div>
+
+
 <div class="carousel">
   <div class="carousel-slide">
     <img src="images\restaurant-interior.jpg" alt="Carousel Slide 1">
