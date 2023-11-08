@@ -4,7 +4,12 @@
 <body>
 
 <div class="popup-container" id="login-popup">
-
+  <div class="popup">
+    <form>
+      <h2>
+        <span>User Login</span>
+</form>
+</div>
 </div>
 
 
