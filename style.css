@@ -399,4 +399,7 @@ header .sign-in-up {
 header .sign-in-up button {
     font-size: 16px;
     font-weight: 600;
+    color: #fff;
+    background: linear-gradient(45deg, #ff6b6b, #e74c3c);
+   
 }
