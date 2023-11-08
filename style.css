@@ -395,3 +395,8 @@ header .sign-in-up {
     display: flex;
     align-items: center;
 }
+
+header .sign-in-up button {
+    font-size: 16px;
+    font-weight: 600;
+}
