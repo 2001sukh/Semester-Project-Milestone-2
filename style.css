@@ -479,6 +479,9 @@ div.popup-container .popup input, div.popup-container .register input {
     width: 90%;
     padding: 10px;
     margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #30475e;
+    outline: none;
 }
 
 
