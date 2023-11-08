@@ -482,6 +482,10 @@ div.popup-container .popup input, div.popup-container .register input {
     border: none;
     border-bottom: 2px solid #30475e;
     outline: none;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    color: #30475e;
 }
 
 
