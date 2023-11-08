@@ -435,5 +435,6 @@ div.popup-container {
 /* Login and Registration Container */
 div.popup-container .popup, div.popup-container .register {
     background: linear-gradient(45deg, #fff, #f0f0f0);
+    width: 350px;
+    border-radius: 20px;
 }
-
