@@ -17,6 +17,10 @@
 </div>
 </div>
 
+<div class="popup-container" id="register-popup">
+  
+</div>
+
 
 <div class="carousel">
   <div class="carousel-slide">
