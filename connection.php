@@ -1,10 +1,9 @@
-connection.php:- 
-
 <?php
 
-mysqli_connect("localhost","root","","hungerhub");
+$con=mysqli_Connect("localhost","root","","hungerhub");
 
-if (mysqli_connect_errno()){
+if(mysqli_connect_error()){
     echo"<script>alert('cannot connect to the database');</script>";
     exit();
 }
+?>

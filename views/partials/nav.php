@@ -1,8 +1,9 @@
 <header>
         <nav>
-        <button type="button" onclick="popup('login-popup')">LOGIN</button>
-        <button type="button" onclick="popup('register-popup')">REGISTER</button>
-        
+        <div class='sign-in-up'>
+      <button type='button' onclick="popup('login-popup')">LOGIN</button>
+      <button type='button' onclick="popup('register-popup')">REGISTER</button>
+    </div>
             <ul class="menu">
                 <li><a href="/">Home</a></li>
                 <li><a href="about.php">About</a></li>

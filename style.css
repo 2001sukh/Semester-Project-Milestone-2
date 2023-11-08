@@ -389,7 +389,6 @@ cta-button:hover {
     margin: 10px 0;
 }
 
-
 /* Header styles */
 header .sign-in-up {
     display: flex;
@@ -409,6 +408,7 @@ header .sign-in-up button {
     cursor: pointer;
     box-shadow: 0px 5px 10px rgba(231, 76, 60, 0.2);
 }
+
 
 header .sign-in-up button:hover {
     background: linear-gradient(45deg, #e74c3c, #c0392b);
