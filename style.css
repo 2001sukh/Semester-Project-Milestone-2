@@ -494,6 +494,9 @@ div.popup-container .popup button.login-btn, div.popup-container .register butto
     font-size: 18px;
     color: #fff;
     background: linear-gradient(45deg, #30475e, #283845);
+    padding: 10px 20px;
+    border: none;
+    outline: none;
 }
 
 
