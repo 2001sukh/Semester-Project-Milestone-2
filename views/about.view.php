@@ -1,4 +1,3 @@
-@ -1,45 +0,0 @@
 <?php require('partials/head.php') ?>
 <?php require('partials/nav.php') ?>
 
