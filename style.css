@@ -473,3 +473,12 @@ div.popup-container .popup h2 button, div.popup-container .register h2 button {
     border: none;
     outline: none;
 }
+
+/* Login and Registration Input Fields */
+div.popup-container .popup input, div.popup-container .register input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
