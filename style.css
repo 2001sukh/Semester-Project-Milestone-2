@@ -428,4 +428,5 @@ div.popup-container {
     justify-content: center;
     display: none;
     background: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
 }
