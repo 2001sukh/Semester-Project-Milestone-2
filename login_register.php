@@ -53,5 +53,12 @@ if($result)
    } 
 }
 }
-
+else
+{
+    echo"
+    <script>alert('Cannot Run Query');
+    window.location.href='index.php';
+    </script>
+    ";
+}
 ?>
