@@ -453,3 +453,12 @@ div.popup-container .popup, div.popup-container .register {
     }
 }
 
+
+
+/* Login and Registration Title */
+div.popup-container .popup h2, div.popup-container .register h2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: #30475e;
+}
