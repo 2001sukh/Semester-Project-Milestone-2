@@ -499,6 +499,8 @@ div.popup-container .popup button.login-btn, div.popup-container .register butto
     outline: none;
     cursor: pointer;
     border-radius: 25px;
+    transition: background 0.3s;
+    box-shadow: 0px 5px 10px rgba(40, 56, 69, 0.2);
 }
 
 
