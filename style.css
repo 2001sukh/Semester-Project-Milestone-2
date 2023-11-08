@@ -469,4 +469,7 @@ div.popup-container .popup h2 button, div.popup-container .register h2 button {
     font-weight: 600;
     color: #797775;
     cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
 }
