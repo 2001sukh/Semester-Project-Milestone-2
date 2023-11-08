@@ -1,10 +1,10 @@
 <header>
         <nav>
 
-        <div class="sign-in-up">    
-        <button type="button">LOGIN</button>
-        <button type="button">REGISTER</button>
-        </div>
+        <div class="sign-in-up">
+        <button type="button" onclick="popup('login-popup')">LOGIN</button>
+        <button type="button" onclick="popup('register-popup')">REGISTER</button>
+</div>
 
             <ul class="menu">
                 <li><a href="/">Home</a></li>
