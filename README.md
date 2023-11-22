@@ -1,4 +1,15 @@
-# Semester-Project-Milestone-2
+# Semester-Project-Milestone- 3 deploy-instructions
+
+self-assessed score = 6.6/8
+
+Link of deploy repository:- https://github.com/2001sukh/Semester-Project-Milestone-2.git 
+
+Deploy project link :- https://ssingh.imgd.ca/
+
+Deploy project link :- https://ssingh.imgd.ca/dgl123.ssingh.imgd.ca/Milestone%203/
+
+
+
 DOCUMENTATION
 
 Following is the documentation for the code which i did in Walkthrough 8: Laracast Videso 25-28 basically the changes that i did to the following files.
