@@ -51,6 +51,8 @@ if (isset($_POST['register'])) {
                 } else {
                     echo "<script>alert('E-mail already registered'); window.location.href='index.php';</script>";
                 }
-            } }}
+            } else {
+                $hashed_password = password_hash($password, PASSWORD_BCRYPT);
+            }}}
 }
 ?>
