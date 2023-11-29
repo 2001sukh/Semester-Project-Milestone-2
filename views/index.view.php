@@ -2,6 +2,7 @@
 session_start(); 
 require($proj_root . "partials/head.php");
 require($proj_root . "partials/nav.php");
+require($proj_root . "connection.php");
 ?>
 
 <body>
