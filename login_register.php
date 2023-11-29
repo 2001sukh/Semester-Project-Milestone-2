@@ -30,3 +30,8 @@ if (isset($_POST['login'])) {
 }
 } 
 
+# For registration
+if (isset($_POST['register'])) {
+   
+}
+?>
