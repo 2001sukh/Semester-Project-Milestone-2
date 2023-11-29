@@ -38,7 +38,7 @@ if (isset($_POST['register'])) {
     $password = $_POST['password'];
 
     if (!empty($username) && !empty($email) && !empty($fullname) && !empty($password)) {
-       
+        $user_exit_query = $con->prepare("SELECT * FROM `registered_users` WHERE `username` = ? OR `email` = ?");
     }
 }
 ?>
