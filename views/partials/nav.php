@@ -1,6 +1,6 @@
 <header>
-        <nav>
-        <div class='sign-in-up'>
+    <nav>
+      <div class='sign-in-up'>
       <button type='button' onclick="popup('login-popup')">LOGIN</button>
       <button type='button' onclick="popup('register-popup')">REGISTER</button>
     </div>
