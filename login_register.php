@@ -19,6 +19,9 @@ if (isset($_POST['login'])) {
             $_SESSION['logged_in'] = true;
             $_SESSION['username'] = $result_fetch['username'];
             header("location:index.php");
-        } }}
+        } else {
+            echo "<script>alert('Incorrect password'); window.location.href='index.php';</script>";
+        }
+    } }
 } 
 
