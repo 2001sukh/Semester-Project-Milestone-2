@@ -507,3 +507,8 @@ div.popup-container .popup button.login-btn, div.popup-container .register butto
 div.popup-container .popup button.login-btn:hover, div.popup-container .register button.register-btn:hover {
     background: linear-gradient(45deg, #283845, #1f2b38);
 }
+
+.welcome-message {
+    color: red; /* Change this to your desired text color */
+    /* Add any other styles you want for the welcome message here */
+}

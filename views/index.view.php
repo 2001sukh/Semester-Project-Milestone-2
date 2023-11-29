@@ -1,7 +1,7 @@
 <?php 
-session_start(); 
+session_start(); // Start the session at the very top
 require('partials/head.php');
-require('partials/nav.php'); 
+require('partials/nav.php'); // This now comes after session_start()
 require('connection.php');
 ?>
 
@@ -41,9 +41,8 @@ require('connection.php');
 
 <?php
 
-if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']==true )
-{
-echo"<h1>WELCOME TO Hungerhub - $_SESSION[username]</h1>";
+if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true) {
+  echo "<h1 class='welcome-message'>WELCOME TO HUNGERHUB - $_SESSION[username]</h1>";
 }
 
 ?>
