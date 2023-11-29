@@ -3,10 +3,13 @@
         <div class='sign-in-up'>
             <?php if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']): ?>
                 <!-- Display username and logout link if user is logged in -->
-               
-    <div>
-  <span style="color: white; font-size: 18px;"><?php echo htmlspecialchars($_SESSION['username']) ?></span> <span style="color: white; font-size: 18px;"> - </span><a href='logout.php' class='logout-button'>LOGOUT</a>
-</div>
+
+                <div>
+                    <span style="color: white; font-size: 18px;">
+                        <?php echo htmlspecialchars($_SESSION['username']) ?>
+                    </span> <span style="color: white; font-size: 18px;"> - </span><a href='logout.php'
+                        class='logout-button'>LOGOUT</a>
+                </div>
 
 
             <?php else: ?>
