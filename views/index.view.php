@@ -38,6 +38,16 @@ require('connection.php');
     </div>
   </div>
 
+
+<?php
+
+if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']==true )
+{
+echo"<h1>WELCOME TO Hungerhub - $_SESSION[username]</h1>";
+}
+
+?>
+
   <script>
     function popup(popup_name)
     {
