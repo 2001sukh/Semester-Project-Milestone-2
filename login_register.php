@@ -45,7 +45,7 @@ if (isset($_POST['register'])) {
 
         if ($result) {
             if ($result->num_rows > 0) {
-                
+                $result_fetch = $result->fetch_assoc();
             } }}
 }
 ?>
