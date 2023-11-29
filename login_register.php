@@ -43,6 +43,9 @@ if (isset($_POST['register'])) {
         $user_exit_query->execute();
         $result = $user_exit_query->get_result();
 
-    }
+        if ($result) {
+            if ($result->num_rows > 0) {
+                
+            } }}
 }
 ?>
