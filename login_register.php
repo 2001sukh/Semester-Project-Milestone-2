@@ -11,5 +11,9 @@ if (isset($_POST['login'])) {
  $stmt->bind_param("ss", $email_username, $email_username);
  $stmt->execute();
  $result = $stmt->get_result();
- 
-}
+
+ if ($result) {
+    if ($result->num_rows == 1) {
+        $result_fetch = $result->fetch_assoc();
+    }}}
+
