@@ -8,7 +8,7 @@ require('connection.php');
 <body>
 
 <div class="carousel"> 
-<div class="popup-container" id="login-popup">
+  <div class="popup-container" id="login-popup">
     <div class="popup">
       <form method="POST" action="login_register.php">
         <h2>
@@ -38,16 +38,14 @@ require('connection.php');
     </div>
   </div>
 
+  <?php
 
-<?php
+  if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']==true )
+  {
+      echo "<h1 style='color: #e74c3c;'>WELCOME TO HUNGERHUB - ".$_SESSION['username']."</h1>"; 
+  }
 
-if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']==true )
-{
-    echo "<h1 style='color: #e74c3c;'>WELCOME TO HUNGERHUB - ".$_SESSION['username']."</h1>"; 
-}
-
-
-?>
+  ?>
 
   <script>
     function popup(popup_name)
@@ -56,14 +54,15 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']==true )
       if(get_popup.style.display=="flex")
       {
         get_popup.style.display="none";
+        isPopupOpen = false;
       }
       else
       {
         get_popup.style.display="flex";
+        isPopupOpen = true;
       }
     }
   </script>
-
 
   <div class="carousel-slide">
     <img src="images\restaurant-interior.jpg" alt="Carousel Slide 1">
@@ -82,36 +81,41 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']==true )
 <!-- JavaScript for the carousel -->
 <script>
   let slideIndex = 0;
+  let isPopupOpen = false; // Added variable to track popup state
   showSlides();
 
   function showSlides() {
-    let slides = document.querySelectorAll('.carousel-slide');
+    if (!isPopupOpen) {
+      let slides = document.querySelectorAll('.carousel-slide');
 
-    // Hide all slides
-    for (let i = 0; i < slides.length; i++) {
-      slides[i].style.display = 'none';
+      // Hide all slides
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = 'none';
+      }
+
+      // Show the current slide
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1;
+      }
+      slides[slideIndex - 1].style.display = 'block';
+
+      // Change slides every 3 seconds (3000 milliseconds)
+      setTimeout(showSlides, 3000);
+    } else {
+      // If the popup is open, simply wait for the next interval without changing the slide
+      setTimeout(showSlides, 3000);
     }
-
-    // Show the current slide
-    slideIndex++;
-    if (slideIndex > slides.length) {
-      slideIndex = 1;
-    }
-    slides[slideIndex - 1].style.display = 'block';
-
-    // Change slides every 3 seconds (3000 milliseconds)
-    setTimeout(showSlides, 3000);
   }
 </script>
 
 <div class="text-container">
-        <h2>Welcome to Hungerhub</h2>
-        <p>
-            "Welcome to HungerHub, your number one delivery app for fast food! Satisfy your cravings with a wide selection of delicious dishes, delivered right to your doorstep. Order now and experience the ultimate convenience in fast food delivery."
-        </p>
-    </div>
+  <h2>Welcome to Hungerhub</h2>
+  <p>
+    "Welcome to HungerHub, your number one delivery app for fast food! Satisfy your cravings with a wide selection of delicious dishes, delivered right to your doorstep. Order now and experience the ultimate convenience in fast food delivery."
+  </p>
+</div>
 
-    
 <div class="grid-container">
   <div class="grid-item">
     <a href="link1.html">
@@ -150,7 +154,6 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']==true )
     </a>
   </div>
 </div>
-
 
 </body>
 <?php require('partials/footer.php') ?>
