@@ -48,7 +48,9 @@ if (isset($_POST['register'])) {
                 $result_fetch = $result->fetch_assoc();
                 if ($result_fetch['username'] == $username) {
                     echo "<script>alert('Username already taken'); window.location.href='index.php';</script>";
-                } 
+                } else {
+                    echo "<script>alert('E-mail already registered'); window.location.href='index.php';</script>";
+                }
             } }}
 }
 ?>
