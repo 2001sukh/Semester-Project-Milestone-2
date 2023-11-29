@@ -1,8 +1,6 @@
 <?php 
-session_start();
-require('partials/head.php');
-require('partials/nav.php'); 
-require('connection.php');
+session_start(); 
+require($proj_root . "partials/head.php");
 ?>
 
 <body>
