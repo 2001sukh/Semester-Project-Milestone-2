@@ -1,6 +1,9 @@
-<?php require('partials/head.php') ?>
-<?php require('partials/nav.php') ?>
-<?php require('connection.php');?>
+<?php 
+session_start(); 
+require('partials/head.php');
+require('partials/nav.php'); 
+require('connection.php');
+?>
 
 <body>
 
