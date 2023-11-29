@@ -53,6 +53,7 @@ if (isset($_POST['register'])) {
                 }
             } else {
                 $hashed_password = password_hash($password, PASSWORD_BCRYPT);
+                $insert_stmt = $con->prepare("INSERT INTO `registered_users`(`full_name`, `username`, `email`, `password`) VALUES (?, ?, ?, ?)");
             }}}
 }
 ?>
