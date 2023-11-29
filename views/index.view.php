@@ -41,9 +41,11 @@ require('connection.php');
 
 <?php
 
-if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true) {
-  echo "<h1 class='welcome-message'>WELCOME TO HUNGERHUB - $_SESSION[username]</h1>";
+if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']==true )
+{
+    echo "<h1 style='color: #e74c3c;'>WELCOME TO HUNGERHUB - ".$_SESSION['username']."</h1>"; 
 }
+
 
 ?>
 

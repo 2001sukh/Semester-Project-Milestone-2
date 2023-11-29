@@ -508,7 +508,17 @@ div.popup-container .popup button.login-btn:hover, div.popup-container .register
     background: linear-gradient(45deg, #283845, #1f2b38);
 }
 
-.welcome-message {
-    color: red; /* Change this to your desired text color */
-    /* Add any other styles you want for the welcome message here */
-}
+.logout-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:  #e74c3c; /* Set the background color you prefer */
+    color: #fff; /* Set the text color you prefer */
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Add rounded corners if you like */
+  }
+  
+  .logout-button:hover {
+    background-color: #c00; /* Change color on hover */
+  }
