@@ -57,6 +57,15 @@ if (isset($_POST['register'])) {
                 $insert_stmt->bind_param("ssss", $fullname, $username, $email, $hashed_password);
                 if ($insert_stmt->execute()) {
                     echo "<script>alert('Registration Successful'); window.location.href='index.php';</script>";
-                } }}}
+                } else {
+                    echo "<script>alert('Cannot Run Query'); window.location.href='index.php';</script>";
+                }
+            }
+        } else {
+            echo "<script>alert('Cannot Run Query'); window.location.href='index.php';</script>";
+        }
+    } else {
+        echo "<script>alert('Please fill in all the required fields'); window.location.href='index.php';</script>";
+    }
 }
 ?>
