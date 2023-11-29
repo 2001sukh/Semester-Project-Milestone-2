@@ -46,6 +46,9 @@ if (isset($_POST['register'])) {
         if ($result) {
             if ($result->num_rows > 0) {
                 $result_fetch = $result->fetch_assoc();
+                if ($result_fetch['username'] == $username) {
+                    echo "<script>alert('Username already taken'); window.location.href='index.php';</script>";
+                } 
             } }}
 }
 ?>
