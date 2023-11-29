@@ -36,5 +36,9 @@ if (isset($_POST['register'])) {
     $email = mysqli_real_escape_string($con, $_POST['email']);
     $fullname = mysqli_real_escape_string($con, $_POST['fullname']);
     $password = $_POST['password'];
+
+    if (!empty($username) && !empty($email) && !empty($fullname) && !empty($password)) {
+       
+    }
 }
 ?>
