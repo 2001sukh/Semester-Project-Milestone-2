@@ -15,5 +15,10 @@ if (isset($_POST['login'])) {
  if ($result) {
     if ($result->num_rows == 1) {
         $result_fetch = $result->fetch_assoc();
-    }}}
+        if (password_verify($password, $result_fetch['password'])) {
+            $_SESSION['logged_in'] = true;
+            $_SESSION['username'] = $result_fetch['username'];
+            header("location:index.php");
+        } }}
+} 
 
