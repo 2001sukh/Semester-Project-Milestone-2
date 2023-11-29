@@ -8,5 +8,8 @@ if (isset($_POST['login'])) {
 
  // Prepared statement to prevent SQL Injection
  $stmt = $con->prepare("SELECT * FROM `registered_users` WHERE `email` = ? OR `username` = ?");
- $stmt->bind_param("ss", $email_username, $email_username); 
+ $stmt->bind_param("ss", $email_username, $email_username);
+ $stmt->execute();
+ $result = $stmt->get_result();
+ 
 }
