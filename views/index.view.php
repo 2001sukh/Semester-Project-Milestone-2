@@ -1,7 +1,7 @@
 <?php 
-session_start(); // Start the session at the very top
+session_start();
 require('partials/head.php');
-require('partials/nav.php'); // This now comes after session_start()
+require('partials/nav.php'); 
 require('connection.php');
 ?>
 

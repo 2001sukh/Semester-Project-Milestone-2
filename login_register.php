@@ -1,6 +1,6 @@
 <?php
 
-require('connection.php');
+require($proj_root . 'connection.php');
 session_start();
 
 # For login
